@@ -12,33 +12,33 @@
     <div class="calculator text-center">
         <input type="text" id="display" class="form-control" readonly />
         <div class="mt-3">
-            <button class="btn btn-outline-secondary btn-calc" onclick="addToDisplay('7')">7</button>
-            <button class="btn btn-outline-secondary btn-calc" onclick="addToDisplay('8')">8</button>
-            <button class="btn btn-outline-secondary btn-calc" onclick="addToDisplay('9')">9</button>
+            <button class="btn btn-outline-secondary btn-calc number" onclick="addToDisplay('7')">7</button>
+            <button class="btn btn-outline-secondary btn-calc number" onclick="addToDisplay('8')">8</button>
+            <button class="btn btn-outline-secondary btn-calc number" onclick="addToDisplay('9')">9</button>
         </div>
         <div>
-            <button class="btn btn-outline-secondary btn-calc" onclick="addToDisplay('4')">4</button>
-            <button class="btn btn-outline-secondary btn-calc" onclick="addToDisplay('5')">5</button>
-            <button class="btn btn-outline-secondary btn-calc" onclick="addToDisplay('6')">6</button>
+            <button class="btn btn-outline-secondary btn-calc number" onclick="addToDisplay('4')">4</button>
+            <button class="btn btn-outline-secondary btn-calc number" onclick="addToDisplay('5')">5</button>
+            <button class="btn btn-outline-secondary btn-calc number" onclick="addToDisplay('6')">6</button>
         </div>
         <div>
-            <button class="btn btn-outline-secondary btn-calc" onclick="addToDisplay('1')">1</button>
-            <button class="btn btn-outline-secondary btn-calc" onclick="addToDisplay('2')">2</button>
-            <button class="btn btn-outline-secondary btn-calc" onclick="addToDisplay('3')">3</button>
+            <button class="btn btn-outline-secondary btn-calc number" onclick="addToDisplay('1')">1</button>
+            <button class="btn btn-outline-secondary btn-calc number" onclick="addToDisplay('2')">2</button>
+            <button class="btn btn-outline-secondary btn-calc number" onclick="addToDisplay('3')">3</button>
         </div>
         <div>
-            <button class="btn btn-outline-secondary btn-calc" onclick="addToDisplay('0')">0</button>
-            <button class="btn btn-outline-secondary btn-calc" onclick="addToDisplay('.')">.</button>
-            <button class="btn btn-outline-secondary btn-calc" onclick="addToDisplay('-')">-</button>
+            <button class="btn btn-outline-secondary btn-calc number" onclick="addToDisplay('0')">0</button>
+            <button class="btn btn-outline-secondary btn-calc operator" onclick="addToDisplay('.')">.</button>
+            <button class="btn btn-outline-secondary btn-calc operator" onclick="addToDisplay('-')">-</button>
         </div>
         <div>
-            <button class="btn btn-outline-secondary btn-calc" onclick="addToDisplay('/')">/</button>
-            <button class="btn btn-outline-secondary btn-calc" onclick="addToDisplay('*')">x</button>
-            <button class="btn btn-outline-secondary btn-calc" onclick="addToDisplay('+')">+</button>
+            <button class="btn btn-outline-secondary btn-calc operator" onclick="addToDisplay('/')">/</button>
+            <button class="btn btn-outline-secondary btn-calc operator" onclick="addToDisplay('*')">x</button>
+            <button class="btn btn-outline-secondary btn-calc operator" onclick="addToDisplay('+')">+</button>
         </div>
         <div>
-            <button class="btn btn-outline-success btn-calc" onclick="calculate()">=</button>
-            <button class="btn btn-outline-danger btn-calc" onclick="clearDisplay()">C</button>
+            <button class="btn btn-outline-success btn-calc equal" onclick="calculate()">=</button>
+            <button class="btn btn-outline-danger btn-calc clear" onclick="clearDisplay()">C</button>
         </div>
     </div>
 </body>
